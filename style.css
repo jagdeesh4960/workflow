@@ -543,18 +543,17 @@
     cursor: pointer;
   }
   
-  @media (max-width: 950px) {
+  @media (max-width:1000px) {
     body {
       display: flex;
       flex-direction: column;
       gap: 2rem;
-      padding: 1rem;
     }
     body main {
-      padding: 0rem;
+      padding: 1rem;
     }
     body nav {
-      padding-inline: 0rem;
+      padding-inline: 1rem;
       padding-block: 1rem;
     }
   
@@ -731,13 +730,12 @@
     body main section.seven .bottom .img h3 span {
       text-align: end;
       line-height: 1;
-      margin-left: 10rem;
+      margin-left: 8rem;
     }
   
     body footer {
       width: 100%;
       padding-top: 3rem;
-      padding-inline: 1rem;
     }
   
     body footer .top {
